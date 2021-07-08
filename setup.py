@@ -35,5 +35,5 @@ setup(
     packages=['completions'],
     package_dir={"": "."},
     package_data={"completions": ["*.bak"]},
-    install_requires=['colorama', 'pyparam', 'python-simpleconf'],
+    install_requires=['colorama', 'pyparam==0.2.5', 'python-simpleconf==0.3.3', 'pyyaml'],
 )

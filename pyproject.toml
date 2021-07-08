@@ -11,6 +11,10 @@ license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/george-hinkel/completions-resurrection"
 repository = "https://github.com/george-hinkel/completions-resurrection"
+packages = [
+    { include = "completions-resurrection" },
+    { include = "completions-resurrection/**/*.py" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.4"

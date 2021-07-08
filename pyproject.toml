@@ -3,20 +3,21 @@ requires = [ "poetry>=0.12",]
 build-backend = "poetry.masonry.api"
 
 [tool.poetry]
-name = "completions"
-version = "0.0.8"
+name = "completions-resurrection"
+version = "0.0.9"
 description = "Shell completions made easy."
-authors = [ "pwwang <pwwang@pwwang.com>",]
+authors = [ "pwwang <pwwang@pwwang.com>", "George Hinkel dev@georgehinkel.com"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/pwwang/completions"
-repository = "https://github.com/pwwang/completions"
+homepage = "https://github.com/george-hinkel/completions-resurrection"
+repository = "https://github.com/george-hinkel/completions-resurrection"
 
 [tool.poetry.dependencies]
 python = "^3.4"
 colorama = "*"
-python-simpleconf = "*"
-pyparam = "*"
+python-simpleconf = "0.3.3"
+pyparam = "0.2.5"
+pyyaml = "*"
 
 [tool.poetry.scripts]
 completions = "completions:main"

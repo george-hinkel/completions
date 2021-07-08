@@ -1,3 +1,4 @@
 colorama
-pyparam
-python-simpleconf
+pyparam==0.2.5
+python-simpleconf==0.3.3
+pyyaml

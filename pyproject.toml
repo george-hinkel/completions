@@ -20,4 +20,4 @@ pyparam = "0.2.5"
 pyyaml = "*"
 
 [tool.poetry.scripts]
-completions = "completions:main"
+completions = "completions-resurrection:main"

@@ -22,10 +22,10 @@ repos:
     rev: v2.4.4
     hooks:
     -   id: pylint
-        files: ^completions/.+$
+        files: ^completions-resurrection/.+$
         pass_filenames: false
         types: [python]
-        args: [completions]
+        args: [completions-resurrection]
 -   repo: local
     hooks:
     -   id: poetry2setuppy

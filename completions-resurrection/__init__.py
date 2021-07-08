@@ -8,7 +8,7 @@ import uuid
 import warnings
 from os import path, sep, rename, makedirs, environ
 from simpleconf import Config
-from completions.templates import (assemble_bash_with_commands,
+from completions-resurrection.templates import (assemble_bash_with_commands,
                                    assemble_bash_without_commands,
                                    assemble_fish_with_commands,
                                    assemble_fish_without_commands,

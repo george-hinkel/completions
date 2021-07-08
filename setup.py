@@ -23,7 +23,7 @@ if os.path.exists(readme_path):
 
 setup(
     long_description=readme,
-    name='completions',
+    name='completions-resurrection',
     version='0.0.8',
     description='Shell completions made easy.',
     python_requires='==3.*,>=3.4.0',
@@ -31,9 +31,9 @@ setup(
     author='pwwang',
     author_email='pwwang@pwwang.com',
     license='MIT',
-    entry_points={"console_scripts": ["completions = completions:main"]},
-    packages=['completions'],
+    entry_points={"console_scripts": ["completions = completions-resurrection:main"]},
+    packages=['completions-resurrection'],
     package_dir={"": "."},
-    package_data={"completions": ["*.bak"]},
+    package_data={"completions-resurrection": ["*.bak"]},
     install_requires=['colorama', 'pyparam==0.2.5', 'python-simpleconf==0.3.3', 'pyyaml'],
 )

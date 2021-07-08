@@ -16,7 +16,7 @@ from completions-resurrection.templates import (assemble_bash_with_commands,
                                    assemble_zsh_without_commands)
 
 
-__version__ = "0.0.8"
+__version__ = "0.1.0"
 
 def check_optname(optname):
     """Send warning if necessary"""
